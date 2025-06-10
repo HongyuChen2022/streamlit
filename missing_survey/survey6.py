@@ -500,7 +500,7 @@ def page5():
 # Load the dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("../dataset/sub_dataset_6.csv")
+    return pd.read_csv("../dataset/1/sub_dataset_6.csv")
 
 
 data = load_data()

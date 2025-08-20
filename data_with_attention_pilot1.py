@@ -40,7 +40,7 @@ for i in range(len(df) + len(random_df)):
         current_index += 1
 
 # Save the updated DataFrame to a CSV file
-output_file = "data_attention_1/data_pilot1_attention.csv"
+output_file = "data_pilot1_attention.csv"
 combined_df.to_csv(output_file, index=False)  # Set index=False to avoid saving row indices to the CSV
 
 print(f"Updated dataset saved to {output_file}")
